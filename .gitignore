@@ -1,0 +1,95 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# SQLite / Databases
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Qt / PyQt / PySide
+# =========================
+*.ui
+*.qrc
+*.qmlc
+*.qmlproject.user
+*.pro.user
+*.pyi
+
+# =========================
+# Assets (generated or heavy)
+# =========================
+MyQtApp/assets/
+assets/
+resources/
+
+# =========================
+# Build / Dist
+# =========================
+build/
+dist/
+*.spec
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# =========================
+# Coverage / Reports
+# =========================
+htmlcov/
+.coverage
+coverage.xml
+
+# =========================
+# Caches
+# =========================
+.cache/
